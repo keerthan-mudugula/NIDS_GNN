@@ -1,0 +1,55 @@
+{
+  "dataset": "C:\\Users\\Vivekananda\\Desktop\\NIDS_GNN\\data\\demo_data",
+  "total_samples": 120,
+  "train_samples": 96,
+  "test_samples": 24,
+  "epochs": 30,
+  "learning_rate": 0.01,
+  "ann": {
+    "name": "ANN",
+    "parameters": 31022,
+    "train_time_sec": 0.8258856000029482,
+    "avg_latency_ms": 0.025609027781885944,
+    "throughput_samples_per_sec": 39048.72955416647,
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "auroc": 1.0,
+    "confusion_matrix": [
+      [
+        12,
+        0
+      ],
+      [
+        0,
+        12
+      ]
+    ],
+    "final_loss": 4.582105077588494e-07
+  },
+  "gnn": {
+    "name": "GNN",
+    "parameters": 1052,
+    "train_time_sec": 27.61111680002068,
+    "avg_latency_ms": 0.5405705555555567,
+    "throughput_samples_per_sec": 1849.897279314959,
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "auroc": 1.0,
+    "confusion_matrix": [
+      [
+        12,
+        0
+      ],
+      [
+        0,
+        12
+      ]
+    ],
+    "final_loss": 0.0
+  },
+  "parameter_reduction_percent": 96.60885822964347
+}
